@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me!</button>
+    <script>
+        let h1 = document.createElement("h1");
+        h1.innerHTML = "Hello this is js";
+        let btn = document.querySelector("#btn");
+        btn.addEventListener("click",(e)= eve => {
+        btn.after(h1);  
+        });
+
+        btn.addEventListener("dblclick",(e)= eve=>{
+            document.body.removeChild(h1);
+        });
+        
+    
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+ <!-- Develop a webpage with a two-column layout using HTML and CSS. 
+    The left column should contain navigation links, and the right column 
+    should display content. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .one{
+            height: 500px;
+            width: 300px;
+            border: 1px black solid;
+        }
+        .two{
+            height: 500px;
+            width: 700px;
+            border: 1px black solid;
+        }
+        .container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="one">
+        <nav>
+            <a href="#">Home</a><br>
+            <a href="#">About</a><br>
+            <a href="#">Contact Us</a><br>
+        </nav>
+    </div>
+    <div class="two">
+        <h1>Home Section</h1>
+        <h1>About Section</h1>
+        <h1>Contact Us</h1>
+    </div>
+</div>
+</body>
+</html>

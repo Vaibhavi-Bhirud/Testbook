@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipes and Cisterns</title>
+    <link rel="stylesheet" href="Quiz_page_1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 style="color: grey;">PIPES AND CISTERNS</h3>
+        <!-- TIMES AND SCORES -->
+        <div class="timerandscore">
+            <h2 id="timer"> TIME LEFT: <span id="time">220</span> seconds </h2>
+
+            <h2 id="score">SCORE: <span id="marks"></span></h2>
+
+        </div>
+        <!-- QUESTIONS -->
+        <div class="questionnumber">
+            <h2 id="number"></h2>
+        </div>
+        <div class="question" id="quiz">
+            <h2 id="question_conatiner"></h2>
+            <!-- OPTIONS -->
+            <div id="option_container"></div>
+            <p id="display"> </p>
+            <button onclick="nextquestion()" id="click"> SUBMIT</button>
+            <div id="result"></div>
+
+        </div>
+    </div>
+
+    <script src="Quiz_page_1.js"></script>
+</body>
+
+</html>

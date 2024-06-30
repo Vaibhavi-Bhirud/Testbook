@@ -1,0 +1,24 @@
+// Hotel Create
+
+{
+    "name":"Hotel John",
+    "type":"hotel",
+    "city":"mumbai",
+    "address":"near south west",
+    "distance":"500",
+    "title":"Best Hotel in the City",
+    "desc":"Vegetarian hotel",
+    "cheapestPrice":100
+
+}
+
+
+
+// JWT TOKEN 
+
+{
+    "username":"Mohit Saini",
+    "password":"mohit123"
+    "_id": "62ade94b96bf07d607f15153",
+}
+

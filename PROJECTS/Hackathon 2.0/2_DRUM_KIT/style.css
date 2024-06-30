@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: #283149; */
+    background-image: url(https://images.pond5.com/drum-set-black-background-stage-footage-084782267_prevstill.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.keys{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 3px 4px rgb(178, 220, 206);
+    color: #9e1452;
+    margin-top: 100px;
+}
+.key {
+    border: 10px solid #3e414b;
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+h1{
+    font-size: 5rem;
+    color: rgb(184, 215, 204);
+    font-family: "arvo", cursive;
+    text-shadow: 3px  4px #d71d71;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+
+}
+footer{
+    color: rgb(247, 247, 247);
+
+    text-align: end;
+    margin-top: 160px;
+    font-size: larger;
+    margin-right: 20px;
+}
+

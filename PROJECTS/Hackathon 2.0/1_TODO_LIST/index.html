@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-LIST</title>
+    <link rel="shortcut icon"
+        href="https://icons.iconarchive.com/icons/umut-pulat/tulliana-2/128/korganizer-todo-icon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<!-- TODO BODY -->
+    <div class="todo">
+        <div class="upper-section">
+            <h1>TODO LIST</h1>
+            <input type="text" name="" id="taskinput" placeholder="Type a task">
+            <button class="add-btn">ADD</button>
+        </div>
+
+        <div class="todo-task">
+            <h3>Lists of Tasks</h3>
+            <p class="empty-msg">The List is Empty</p>
+            <!-- This is for list of work -->
+            <ul>
+                <!-- <li>do some work</li>
+                <li>do some work</li>
+                <li>do some work</li> -->
+            </ul>
+        </div>
+
+        <!-- This is for Edit popup  -->
+
+        <div class="popup">
+            <h3>Edit task:</h3>
+            <div class="popup-body">
+                <p class="popup-info"></p>
+                <input type="text" name="" id="popup-input" placeholder="Edit your task">
+                <!-- Submit buttton if user wants to submit  the changed task  -->
+                <button class="btn-submit">Submit</button>
+                <!-- cancel button if user wants to cancel the change -->
+                <button class="btn-cancel">Cancel</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

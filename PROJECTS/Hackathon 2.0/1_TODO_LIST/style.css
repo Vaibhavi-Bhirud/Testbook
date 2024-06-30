@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.todo{
+        background-color: #fff;
+        width: 900px;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 250px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
+}
+.upper-section{
+    background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+    border-radius: 5px;
+}
+#taskinput{
+    padding: 10px 20px;
+    width: 80%;
+    margin: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: none;
+}
+h1{
+    /* margin-bottom: 20px; */
+    color: #fff;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.add-btn{
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: rgb(25, 38, 38);
+    color: #fff;
+}
+.todo-task h3{
+    text-transform: uppercase;
+    padding: 20px;
+}
+.empty-msg{
+    color: #045de9;
+    padding-bottom: 10px;
+    display: block;
+
+}
+.todo-task li{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+    /* border: 1px solid lightslategray; */
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.popup{
+    background-color: rgb(5, 24, 24);
+    display: none;
+}
+.popup h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+#popup-input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px;
+}
+.popup-body button{
+    width: 200px;
+    padding: 13px;
+    cursor: pointer; 
+    border-radius: 5px;
+    border: none; 
+    margin: 20px;  
+}
+.popup-body button:hover{
+    background-color: rgb(92, 179, 233);
+    color: #fff;
+}
+.edit{
+    padding: 10px;
+    color: green;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: aliceblue;
+}
+.edit:hover, .complete:hover, .delete:hover{
+    background-color: darkgray;
+
+}
+.complete{
+    color:#076c88;
+}
+.delete{
+    color:red;
+}
+.complete, .delete{
+    background-color: aliceblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.completed{
+
+      text-decoration: line-through;
+    }
+
+
+
+
+
+
+
+
+
+
